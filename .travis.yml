@@ -11,6 +11,7 @@ before_script:
 
 after_success:
   - "./test/scripts/trigger-hot-builder-tests.sh"
+  - "./test/scripts/trigger-pro-tests.sh"
 
 notifications:
   email: false
